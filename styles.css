@@ -1,0 +1,42 @@
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+
+body {
+  min-width: 300px; /* your desired width */
+  background-color: white;
+  
+}
+ img{
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+    
+ }
+div{
+    text-align: center;
+}
+
+ * {
+    box-sizing: border-box;
+}
+
+ /* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33%;
+    padding: 1px;
+    height: 100px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
